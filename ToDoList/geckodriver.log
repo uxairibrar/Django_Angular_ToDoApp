@@ -1,0 +1,26 @@
+1633975609468	geckodriver	INFO	Listening on 127.0.0.1:61943
+1633975612381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\UZAIR\'~1\\AppData\\Local\\Temp\\rust_mozprofileZljEyi"
+1633975612921	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Uzair's PC\\AppData\\Local\\Temp\\rust_mozprofileZljEyi\\search.json.mozlz4", (void 0)))
+1633975615236	Marionette	INFO	Listening on port 52307
+1633975615296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1633976106079	Marionette	INFO	Stopped listening on port 52307
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages wilconsole.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\Uzair's PC\AppData\Local\Temp\rust_mozprofileIrRvUh\bookmarkbackups\bookmarks-2021-10-11_11_6oeoQCM-BMBYshExfUwBRA==.jsonlz4) because it does not exist
+1634044885629	Marionette	INFO	Stopped listening on port 61209
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+n" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1633975929931	Marionette	INFO	Stopped listening on port 61149
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

@@ -1,0 +1,20 @@
+1633976069140	geckodriver	INFO	Listening on 127.0.0.1:53799
+1633976072144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\UZAIR\'~1\\AppData\\Local\\Temp\\rust_mozprofileyNBNPC"
+1633976072547	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Uzair's PC\\AppData\\Local\\Temp\\rust_mozprofileyNBNPC\\search.json.mozlz4", (void 0)))
+1633976075113	Marionette	INFO	Listening on port 64124
+1633976075162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633976847777	Marionette	INFO	Stopped listening on port 64124
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+ NotFoundError("Could not open the file at C:\\Users\\Uzair's PC\\AppData\\Local\\Temp\\rust_mozprofilesvm8P9\\search.json.mozlz4", (void 0)))
+1633976370144	Marionette	INFO	Listening on port 57843
+1633976370628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633976370765	Marionette	INFO	Stopped listening on port 57843
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))

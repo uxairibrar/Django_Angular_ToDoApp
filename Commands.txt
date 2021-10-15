@@ -1,0 +1,12 @@
+For Creating Virtual Environment
+
+python -m venv myenv
+myenv\Scripts\activate
+
+pip install django
+pip install djangorestframework
+django-admin startproject ToDoList
+cd ToDoList
+code .
+python manage.py runserver
+python manage.py startapp ToDoApp
