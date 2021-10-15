@@ -21,7 +21,6 @@ export class AddTodoComponent implements OnInit {
   }
 
   addToDo(){
-    // alert("Called");
     var val = {
       text:this.text};
       this.service.addToDoList(val).subscribe(res=>{

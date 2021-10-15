@@ -23,25 +23,37 @@ describe('ShowTodoComponent', () => {
     fixture.detectChanges();
   });
 
-  // it('should create', () => {
-  //   const app = fixture.debugElement.componentInstance;
-  //   expect(app).toBeTruthy();
-  // });
-
+  
+  // Smoke Test
+  // Test the presence of a Component instance
   it('should be created', () => {
     expect(component).toBeTruthy();
   });
 
+  // Tests whether show-todo compnent is rendering the todo component or not
   it('renders a show to do component', () => {
     const { debugElement } = fixture;
     const counter = debugElement.query(By.css('app-add-todo'));
     expect(counter).toBeTruthy();
   });
 
-  
+  // Tests whether show-todo compnent have the table element or not
+  it('should have a table', () => {
+    const table = fixture.debugElement.nativeElement.querySelector('#tableID')
+    expect(table).toBeTruthy();
+  });
+
 
   describe('Add button', () => {
 
+    // Tests Todo component have the add button or not
+    it('should have a add button', () => {
+      const addButton = fixture.debugElement.nativeElement.querySelector('#addButton')
+      expect(addButton).toBeTruthy();
+    });
+
+
+    // Tests add button have the click event applied on it
     it('should have a click event on add button', () => {
 
       spyOn(component, 'addClick');
@@ -54,11 +66,6 @@ describe('ShowTodoComponent', () => {
 
     });
 
-    it('should have a add button', () => {
-      const addButton = fixture.debugElement.nativeElement.querySelector('#addButton')
-      expect(addButton).toBeTruthy();
-    });
-  
   });  
 
 });

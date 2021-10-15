@@ -56,28 +56,5 @@ describe('SharedService', () => {
     httpTestingController.verify();
   });
 
-  //Test case 1
-  // it('should add a todo', () => {
-  //   const testData: Data = {'text': 'Test Data'};
-
-  //   httpClient.post<Data>('http://127.0.0.1:8000/todo/',testData)
-
-  //   // addEmploye should have made one request to POST employee
-  //   // const req = httpTestingController.expectOne('http://127.0.0.1:8000/todo/');
-
-  //   const req = httpTestingController.expectOne({
-  //     method: "POST",
-  //     url: 'http://127.0.0.1:8000/todo/',
-  //     // data:testData
-  //     description?:
-  //   });
-
-  //   expect(req.request.method).toEqual('POST');
-  //   expect(req.request.body).toEqual(testData);
-
-  //   // Expect server to return the employee after POST
-  //   const expectedResponse = new HttpResponse({ status: 201, statusText: 'Created', body: service });
-  //   req.event(expectedResponse);
-  // });
 });
 
