@@ -68,4 +68,28 @@ describe('ShowTodoComponent', () => {
 
   });  
 
+  describe('Close button', () => {
+
+    // Tests Todo component have the close button or not
+    it('should have a close button', () => {
+      const closeButton = fixture.debugElement.nativeElement.querySelector('#closeButton')
+      expect(closeButton).toBeTruthy();
+    });
+
+
+    // Tests close button have the click event applied on it
+    it('should have a click event on close button', () => {
+
+      spyOn(component, 'closeClick');
+      component.closeClick();
+
+      fixture.detectChanges();
+
+      let buton = fixture.debugElement.query(By.css('button')).nativeElement.click();
+      expect(component.closeClick).toHaveBeenCalled();
+
+    });
+
+  });  
+
 });

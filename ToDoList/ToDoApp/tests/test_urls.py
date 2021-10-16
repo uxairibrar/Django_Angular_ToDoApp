@@ -4,6 +4,7 @@ from django.urls import reverse,resolve
 
 from ToDoApp.views import TODOApi
 
+# It tests the url of the todoapp
 class TestUrls(SimpleTestCase):
     def test_todo_url_is_resolved(self):
         found = resolve('/todo/')  

@@ -9,16 +9,14 @@ from ToDoApp.serializers import ToDoSerializer
 
 # Create your views here.
 
+# TODOApi view is used for getting and posting todo records
 @csrf.csrf_exempt
 def TODOApi(request):
     if request.method=='GET':
-        print("Something Get")
-
         todos=TODO.objects.all()
         todos_serializer=ToDoSerializer(todos,many=True)
         return JsonResponse(todos_serializer.data, safe=False) #Safe=False means whatever we're trying to convert is in safe format
     elif request.method=='POST':
-        print("Something Posted")
         todos_data=JSONParser().parse(request)
         todos_serializer=ToDoSerializer(data=todos_data)
         if todos_serializer.is_valid():
